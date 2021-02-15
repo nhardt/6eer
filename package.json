@@ -1,0 +1,35 @@
+{
+  "name": "6eer",
+  "version": "0.0.1",
+  "description": "Minimal test code to connect to peers over ipv6 and exchange encrypted messages",
+  "main": "ts/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "tsc && nodejs dist/index.js client",
+    "server": "tsc && nodejs dist/index.js server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhardt/6eer.git"
+  },
+  "keywords": [
+    "ipv6",
+    "peer-to-peer",
+    "encryption"
+  ],
+  "author": "Nate Hardt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhardt/6eer/issues"
+  },
+  "homepage": "https://github.com/nhardt/6eer#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.28",
+    "tweetnacl": "^1.0.3",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "tweetnacl-util": "^0.15.1"
+  }
+}
