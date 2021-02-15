@@ -10,7 +10,7 @@ listens on all ipv6 address, client will take an optional address, default is
 
 ### Prerequisites
 
-apt install libsodium
+sudo apt install libsodium-dev
 
 ### Build
 
