@@ -8,15 +8,18 @@ listens on all ipv6 address, client will take an optional address, default is
 
 ## Usage
 
-### Prerequisites
+### C
+
+#### Prerequisites
 
 sudo apt install libsodium-dev
 
-### Build
+#### Build
 
+cd c
 rm client server; gcc client.c -o client -lsodium && gcc server.c -o server -lsodium
 
-### Run
+#### Run
 
 ./server
 ./client
